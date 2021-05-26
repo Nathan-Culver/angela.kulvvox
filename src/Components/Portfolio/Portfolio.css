@@ -1,0 +1,16 @@
+#portfolio-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    background-color: #E5E5E5;
+    padding-top: 5%;
+}
+
+#portfolio-divider {
+    height: 90%;
+    width: 0.01px;
+    border: 1px black solid;
+}

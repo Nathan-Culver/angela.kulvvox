@@ -1,0 +1,608 @@
+h1, h2 {
+    font-family: SeoulHangang CBL;
+    color: #8F2838;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+p {
+    color: #31081F;
+    font-size: 1.25rem;
+}
+
+#comfyCooking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#title-phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#phone-img {
+    height: 507px;
+    width: 266px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#beginning-research-container {
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#beginning-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4%;
+}
+
+#beginning-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    padding-right: 12%;
+}
+
+#research-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4%;
+}
+
+#research-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    padding-right: 12%;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.question-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    max-width: 375px;
+    word-wrap: break-word;
+}
+
+.card-container-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    width: 407px;
+    border: 2px solid #8F2838;
+    margin-top: 40px;
+}
+
+.card-container-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 165px;
+    width: 397px;
+    border: 2px solid #8F2838;
+}
+
+.card-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#question-container-1 {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 5% 0 5%;
+}
+
+#card-container-outer-2 {
+    margin-top: 50px;
+}
+
+#question-card-container-1 {
+    margin-right: 4%;
+}
+
+#question-card-container-2 {
+    margin-left: 4%;
+}
+
+#similarities-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#similarities-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4%;
+}
+
+#similarities-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    padding-right: 12%;
+}
+
+#affinityMap-main-container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2.5% 5% 2.5% 5%;
+}
+
+.affinityMap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 2.5% 0 2.5% 0;
+}
+
+.affinityMap-img {
+    height: 175px;
+    width: 250px;
+}
+
+.affinityMap-text {
+    width: 413px;
+    margin: 0 20px 0 20px;
+    word-wrap: break-word;
+}
+
+#affinityMap-main-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#affinityMap-imgs-container-3-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#affinityMap-img-4 {
+    margin-top: 40px;
+}
+
+#affinityMap-text-3 {
+    height: 200px;
+    padding: 140px 0;
+}
+
+#persona’s-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#persona’s-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+
+#persona’s-img-bubbles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#alice-img {
+    height: 570px;
+    width: 767px;
+    margin-bottom: 40px;
+}
+
+#daniel-img {
+    height: 570px;
+    width: 767px;
+}
+
+#userFlows-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#userFlows-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+
+#userFlows-img-text-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#userFlows-img {
+    height: 272px;
+    width: 442px;
+    filter: contrast(0.75);
+}
+
+#userFlows-text-container {
+    height: 435px;
+    width: 430px;
+}
+
+#userFlows-text-2 {
+    color: black;
+}
+
+#userFlows-text-3 {
+    color: black;
+}
+
+.userFlows-text {
+    margin: 10px 0 10px 0;
+}
+
+#sketching-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#sketching-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+
+#sketching-img-text-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sketching-img {
+    height: 272px;
+    width: 442px;
+    filter: contrast(0.75);
+}
+
+#sketching-text-container {
+    height: 435px;
+    width: 430px;
+}
+
+.sketching-text {
+    margin: 10px 0 10px 0;
+}
+
+#sketching-text-2 {
+    color: black;
+}
+
+#sketching-text-3 {
+    color: black;
+}
+
+#sketching-text-4 {
+    color: black;
+}
+
+#wireFrames-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#wireFrames-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+
+#wireFrames-img-text-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#wireFrames-img {
+    height: 272px;
+    width: 442px;
+    filter: contrast(0.75);
+}
+
+#wireFrames-text-container {
+    height: 435px;
+    width: 430px;
+}
+
+#wireFrames-text-2 {
+    margin-top: 80px;
+    color: black;
+}
+
+.wireFrames-text {
+    margin: 10px 0 10px 0;
+}
+
+#testing-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#testing-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+
+#testing-img-text-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#testing-img-container {
+    display: flex;
+}
+
+.testing-img {
+    height: 350px;
+    width: 189px;
+}
+
+#testing-img-2 {
+    margin: 8px 0 0 20px;
+}
+
+#testing-text-container {
+    height: 435px;
+    width: 430px;
+}
+
+.testing-text {
+    margin: 40px 0 40px 0;
+}
+
+#testing-text-2 {
+    color: black;
+}
+
+#testing-text-3 {
+    color: black;
+}
+
+#testing-text-4 {
+    color: black;
+}
+
+#hifi-1-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#hifi-1-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+
+#hifi-1-img-text-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hifi-1-img {
+    height: 272px;
+    width: 442px;
+    margin-top: 80px;
+}
+
+#hifi-1-text-container {
+    height: 435px;
+    width: 430px;
+}
+
+.hifi-1-text {
+    margin: 40px 0 40px 0;
+}
+
+#hifi-1-text-2 {
+    color: black;
+}
+
+#hifi-1-text-3 {
+    color: black;
+}
+
+#hifi-1-text-4 {
+    color: black;
+}
+
+#hifi-2-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#hifi-2-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+
+#hifi-2-img-text-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hifi-2-img {
+    height: 272px;
+    width: 442px;
+    margin-top: 80px;
+}
+
+#hifi-2-text-container {
+    height: 435px;
+    width: 430px;
+    margin-top: 80px;
+}
+
+.hifi-2-text {
+    margin: 20px 0 20px 0;
+}
+
+#hifi-2-text-2 {
+    color: black;
+}
+
+#overDone-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#overDone-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+
+#overDone-img-text-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#overDone-img-container {
+    display: flex;
+}
+
+.overDone-img {
+    height: 350px;
+    width: 189px;
+}
+
+#overDone-img-2 {
+    margin: 0 0 0 40px;
+}
+
+#overDone-text-container {
+    height: 435px;
+    width: 430px;
+}
+
+.overDone-text {
+    margin: 40px 0 40px 0;
+}
+
+#overDone-text-2 {
+    color: black;
+}
+
+#overDone-text-3 {
+    color: black;
+}
+
+#overDone-text-4 {
+    color: black;
+}
+
+#hifiDesign-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#hifiDesign-title-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+#hifiDesign-text-container-1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+#hifiDesign-text-container-2 {
+    width: 823px;
+}
+
+.hifiDesign-text {
+    margin: 40px 0 40px 0;
+}
+
+#hifiDesign-img {
+    height: 308px;
+    width: 803px;
+}
+
+#prototype-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 80px 0 80px 0;
+}
+
+#prototype-title-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    margin: 40px 0 40px 0;
+}
+
+#prototype-text-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    margin: 40px 0 40px 0;
+}
+
+#prototype-img-container {
+    position: relative;
+    height: 500px;
+    width: 950px;
+    border: 2.5px solid black;
+}
+
+#prototype-img-1 {
+    height: 500px;
+    width: 950px;
+    filter: contrast(0.75);
+}
+
+#prototype-img-2 {
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    height: 75px;
+    width: 115px;
+    filter: invert(1);
+}

@@ -1,0 +1,59 @@
+#nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    height: 70px;
+    width: 100%;
+    background-color: #8F2838;
+}
+
+#name-logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    padding-left: 5%;
+}
+
+#portfolio-contact-container {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    padding-right: 5%;
+}
+
+#name-title {
+    font-family: SeoulHangang CEB, SeoulHangang CBL;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #E5E5E5;
+}
+
+#logo-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+#portfolio-btn {
+    font-family: SeoulHangang CEB, SeoulHangang CBL;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    color: #E5E5E5;
+    background-color: #8F2838;
+    text-decoration: underline;
+}
+
+#contact-btn {
+    height: 34px;
+    width: 150px;
+    font-family: SeoulHangang CEB, SeoulHangang CBL;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: solid 2px #31081F;
+    border-radius: 25px;
+    background-color: #E5E5E5;
+}
+

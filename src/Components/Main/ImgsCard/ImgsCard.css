@@ -1,0 +1,32 @@
+#profile-imgs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 363px;
+    width: 50%;
+    padding-right: 10%;
+}
+
+#profile-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: solid 4px #31081F;
+}
+
+#icons-container {
+    padding-top: 40px;
+}
+
+#linkedin-img {
+    height: 50px;
+    width: 50px;
+    margin: 0 25px 0 25px;
+}
+
+#gmail-img {
+    height: 50px;
+    width: 50px;
+    margin: 0 25px 0 25px;
+}

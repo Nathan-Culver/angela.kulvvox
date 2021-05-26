@@ -1,0 +1,233 @@
+h1, h2 {
+    font-family: SeoulHangang CBL;
+    color: #8F2838;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+p {
+    color: #31081F;
+    font-size: 1.25rem;
+}
+
+#qualityBikes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#title-laptop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#laptop-img {
+    height: 366px;
+    width: 507px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#beginning-container {
+    width: 100%;
+}
+
+#beginning-title {
+    width: 100%;
+}
+
+.problem-card-container-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 165px;
+    width: 397px;
+    border: 2px solid #8F2838;
+}
+
+.card-problem {
+    margin-left: 20px;
+}
+
+#card-problem-2 {
+    margin-left: 40px;
+    padding-right: 40px;
+}
+
+#card-problem-4 {
+    margin-left: 40px;
+    padding-right: 40px;
+}
+
+#becky-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+#becky-img {
+    width: 80%;
+
+}
+
+#qualityBikes-titles-container {
+    display: flex;
+    width: 67%;
+    justify-content: space-between;
+}
+
+#research-img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#research-img-1 {
+    height: 224px;
+    width: 464px;
+    margin: 20px 0 20px 0;
+}
+
+#research-img-2 {
+    height: 264px;
+    width: 324px;
+    margin: 20px 0 20px 0;
+}
+
+.qualityBikes-research-text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 8%;
+    padding-right: 12%;
+}
+
+#userFlows-img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#userFlows-img-1 {
+    height: 264px;
+    width: 324px;
+    margin: 20px 0 20px 0;
+}
+
+#userFlows-img-2 {
+    height: 224px;
+    width: 464px;
+    margin: 20px 0 20px 0;
+}
+
+.qualityBikes-userFlows-text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 8%;
+    padding-right: 12%;
+}
+
+#wireFrames-img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#wireFrames-img-1 {
+    height: 264px;
+    width: 424px;
+    margin: 20px 0 20px 0;
+}
+
+#wireFrames-img-2 {
+    height: 264px;
+    width: 464px;
+    margin: 20px 0 20px 0;
+}
+
+.qualityBikes-wireFrames-text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 8%;
+    padding-right: 12%;
+}
+
+#qualityBikes-product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#qualityBikes-product-titles-container {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#product-title {
+    margin-right: 38%;
+}
+
+#product-text-container-2 {
+    width: 100%;
+}
+
+#product-text-2 {
+    width: 85%;
+    margin-left: 80px;
+}
+
+#product-img-1 {
+    height: 440px;
+    width: 600px;
+    margin-left: 50%;
+}
+
+#product-img-2 {
+    height: 440px;
+    width: 600px;
+    padding-right: 100%;
+}
+
+#pretty-img-1 {
+    height: 370px;
+    width: 390px;
+}
+
+#pretty-img-2 {
+    height: 324px;
+    width: 65vw;
+    margin: 0 0 80px 160px;
+}
+
+#pretty-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#pretty-img-text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 160px;
+}
+
+#pretty-img-3 {
+    height: 350px;
+    width: 500px;
+}
+
+#pretty-img-4 {
+    height: 324px;
+    width: 65vw;
+    margin: 0 0 80px 160px;
+}

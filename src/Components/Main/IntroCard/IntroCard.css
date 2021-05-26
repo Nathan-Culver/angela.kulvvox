@@ -1,0 +1,105 @@
+#intro-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    padding-left: 10%;
+}
+
+#profile-intro-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 363px;
+    width: 50%;
+    background-color: #8F2838;
+    border-radius: 5px;
+}
+
+#profile-intro-title {
+    font-family: SeoulHangang CEB, SeoulHangang CBL;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    padding: 0 40px 0 40px;
+    color: #E5E5E5;
+}
+
+#profile-intro {
+    font-family: SeoulHangang CEB, SeoulHangang CBL;
+    font-size: 1rem;
+    padding: 0 40px 0 40px;
+    color: #E5E5E5;
+    overflow: hidden;
+}
+
+#intro-read-more-btn {
+    height: 37px;
+    width: 160px;
+    font-family: SeoulHangang CEB, SeoulHangang CBL;
+    font-size: 1.75rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+    color: #31081F;
+    margin: 20px 0 20px 0;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 363px;
+    width: 50%;
+    padding-left: 10%;
+}
+
+#contact-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 363px;
+    width: 50%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+}
+
+.form-label {
+    font-family: SeoulHangang CEB, SeoulHangang CBL;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.input {
+    height: 37px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+#message-textarea {
+    height: 70px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+#submit-btn {
+    position: relative;
+    bottom: 20px;
+    height: 37px;
+    width: 287.5px;
+    font-family: SeoulHangang CEB, SeoulHangang CBL;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+    color: #31081F;
+}

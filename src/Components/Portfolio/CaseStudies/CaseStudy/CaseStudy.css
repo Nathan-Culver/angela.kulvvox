@@ -1,0 +1,33 @@
+[id|=caseStudy-container] {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+}
+
+[id|=caseStudy-title] {
+    font-size: 1.25rem;
+    font-weight: 475;
+    margin-bottom: 20px;
+}
+
+[id|=caseStudy-img] {
+    height: 195px;
+    width: 45vw;
+    border-radius: 10px;
+}
+
+[id|=caseStudy-container-text] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 195px;
+    background-color: #8F2838;
+    border-radius: 10px;
+}
+
+[id|=caseStudy-text] {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,21 @@
+#designSprints-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 2.5%;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#designSprints-title-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#designSprints-title {
+    font-size: 1.5rem;
+    font-weight: 475;
+    margin-bottom: 20px;
+}
