@@ -197,10 +197,12 @@ export default function ComfyCooking() {
           <div className="container" id="prototype-text-container">
             <p className="text" id="prototype-text" >View the Interactive Prototype</p>
           </div>
-          <div className="container" id="prototype-img-container">
-              <img className="prototype-img" id="prototype-img-1" src={thumbnail} alt="HiFi Design" />  
-              <img className="prototype-img" id="prototype-img-2" src={link} alt="HiFi Design" /> 
-          </div>
+          <a href="https://www.figma.com/file/vZVneb0jWWYAcnnlIpEyzo/Case-Studies?node-id=150%3A2" >
+            <div className="container" id="prototype-img-container">
+                <img className="prototype-img" id="prototype-img-1" src={thumbnail} alt="HiFi Design" />  
+                <img className="prototype-img" id="prototype-img-2" src={link} alt="HiFi Design" /> 
+            </div>
+          </a>
         </section>
       </div>
     );

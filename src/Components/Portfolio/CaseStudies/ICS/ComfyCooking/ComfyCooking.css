@@ -4,18 +4,18 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 3.25rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 2.75rem;
     font-weight: bold;
 }
 
 p {
     color: #31081F;
-    font-size: 1.25rem;
+    font-size: 2.25rem;
 }
 
 #comfyCooking-container {
@@ -217,14 +217,14 @@ p {
 }
 
 #alice-img {
-    height: 570px;
-    width: 767px;
+    height: 75%;
+    width: 75%;
     margin-bottom: 40px;
 }
 
 #daniel-img {
-    height: 570px;
-    width: 767px;
+    height: 75%;
+    width: 75%;
 }
 
 #userFlows-container {
@@ -541,26 +541,46 @@ p {
 #hifiDesign-title-container {
     display: flex;
     justify-content: flex-start;
-    width: 60%;
+    width: 100%;
+}
+
+#hifiDesign-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 4%;
 }
 
 #hifiDesign-text-container-1 {
     display: flex;
     justify-content: flex-end;
-    width: 60%;
+    width: 100%;
+}
+
+#hifiDesign-text-1 {
+    margin-right: 25%;
 }
 
 #hifiDesign-text-container-2 {
-    width: 823px;
+    width: 100%;
+}
+
+#hifiDesign-text-2 {
+    padding: 0 8% 0 8%;
 }
 
 .hifiDesign-text {
     margin: 40px 0 40px 0;
 }
 
+#hifiDesign-img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 #hifiDesign-img {
     height: 308px;
-    width: 803px;
+    width: 80%;
 }
 
 #prototype-container {
@@ -574,15 +594,23 @@ p {
 #prototype-title-container {
     display: flex;
     justify-content: flex-start;
-    width: 60%;
+    width: 100%;
     margin: 40px 0 40px 0;
+}
+
+#prototype-title {
+    padding: 0 8% 0 8%;
 }
 
 #prototype-text-container {
     display: flex;
     justify-content: flex-end;
-    width: 60%;
-    margin: 40px 0 40px 0;
+    width: 75%;
+    margin: 40px 0 160px 0;
+}
+
+#prototype-text {
+    font-weight: bold;
 }
 
 #prototype-img-container {

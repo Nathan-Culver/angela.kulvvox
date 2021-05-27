@@ -26,6 +26,7 @@ function App() {
           setContact={setContact}
           comfyCooking={comfyCooking}
           setComfyCooking={setComfyCooking}
+          setQualityBikes={setQualityBikes}
         />
         {home === true ?
           <Main 

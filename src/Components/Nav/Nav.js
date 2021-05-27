@@ -8,6 +8,8 @@ export default function Nav(props) {
     props.setPortfolio(false)
     props.setContact(false)
     props.setComfyCooking(false)
+    props.setQualityBikes(false)
+
   }
 
   const switchPortfolio = () => {
@@ -15,6 +17,7 @@ export default function Nav(props) {
     props.setHome(false)
     props.setContact(false)
     props.setComfyCooking(false)
+    props.setQualityBikes(false)
   }
 
   const switchContact = () => {
@@ -22,6 +25,7 @@ export default function Nav(props) {
     props.setContact(true)
     props.setPortfolio(false)
     props.setComfyCooking(false)
+    props.setQualityBikes(false)
   }
 
 
