@@ -134,9 +134,9 @@ export default function QualityBikes() {
           </div>
         </section>
         <section className="container" id="testing-container">
-          <div className="container" id="titles-container">
-            <h2 className="title" id="testing-title">Making Things Pretty</h2>
-            <h2 className="title" id="testing-title">Step #5</h2>
+          <div className="container" id="qualityBikes-product-titles-container">
+            <h2 className="title" id="hifiDesign-title">Making Things Pretty</h2>
+            <h2 className="title" id="product-title">Step #5</h2>
           </div>
           <div className="container" id="testing-img-text-container">
             <img className="testing-img" id="pretty-img-1" src={pretty1} alt="Testing" />
@@ -158,30 +158,36 @@ export default function QualityBikes() {
           <img className="testing-img" id="pretty-img-4" src={pretty4} alt="Testing" />
         </section>
         <section className="container" id="testing-container">
-          <div className="container" id="titles-container">
-            <h2 className="title" id="testing-title">Testing the New Design</h2>
-            <h2 className="title" id="testing-title">Step #6</h2>
+          <div className="container" id="newDesign-titles-container">
+            <h2 className="title" id="newDesign-title-1">Testing the New Design</h2>
+            <h2 className="title" id="newDesign-title-2">Step #6</h2>
           </div>
-          <p className="testing-text" id="testing-text-1" >Performing Additional Testing</p>
+          <div className="newDesign-text" id="newDesign-text-container" >
+            <p className="testing-text" id="newDesign-text" >Performing Additional Testing</p>
+          </div>
           <div className="container" id="testing-img-text-container">
-            <img className="testing-img" id="testing-img-1" src={newDesign1} alt="Testing" />
+            <img className="newDesign-img" id="newDesign-img-1" src={newDesign1} alt="Testing" />
             <div className="container" id="testing-text-container">
               <p className="testing-text" id="testing-text-1" >After updating on the prototype and design I administered the next round of user testing on both user flows.</p>
               <p className="testing-text" id="testing-text-2" >Feedback was given on ways to improve on the user flows, and on the UI of the high fidelity prototype. The top three of the issues identified are as follows.</p>
             </div>
           </div>
-          <img className="testing-img" id="testing-img-1" src={newDesign2} alt="Testing" />
+          <div className="container" id="newDesign-img-container" >
+            <img className="newDesign-img" id="newDesign-img-2" src={newDesign2} alt="Testing" />
+          </div>
         </section>
         <section className="container" id="hifiDesign-container">
-          <div className="container" id="hifiDesign-title-container">
-            <h2 className="hifiDesign-text" id="hifiDesign-title">Making It Better</h2>
-            <h2 className="title" id="hifiDesign-title">Step #6</h2>
+          <div className="container" id="better-title-container">
+            <h2 className="hifiDesign-text" id="better-title-1">Making It Better</h2>
+            <h2 className="title" id="better-title-2">Step #6</h2>
           </div>
           <div className="container" id="hifiDesign-text-container-1">
             <p className="hifiDesign-text" id="hifiDesign-text-1" >Iterating on the Design</p>
           </div>
-          <div className="container" id="hifiDesign-text-container-2">
-            <p className="hifiDesign-text" id="hifiDesign-text-2" >Once the improvements had been made the second UI prototype was reviewed for feedback by other designers. The results from their feedback produced a high fidelity prototype with a new UI layout as shown below.</p>
+          <div className="container" id="better-card-container-outer" >
+            <div className="container" id="better-card-container-inner" >
+              <p className="better-text" id="better-card-text" >Once the improvements had been made the second UI prototype was reviewed for feedback by other designers. The results from their feedback produced a high fidelity prototype with a new UI layout as shown below.</p>
+            </div>
           </div>
           <div className="container" id="hifiDesign-img-container">
             <img className="img" id="hifiDesign-img" src={better1} alt="HiFi Design" />  

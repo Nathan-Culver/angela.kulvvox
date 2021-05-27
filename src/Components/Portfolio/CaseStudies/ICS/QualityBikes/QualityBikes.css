@@ -4,18 +4,18 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 3.25rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 2.75rem;
     font-weight: bold;
 }
 
 p {
     color: #31081F;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 #qualityBikes-container {
@@ -76,7 +76,7 @@ p {
 }
 
 #becky-img {
-    width: 80%;
+    width: 75%;
 
 }
 
@@ -158,6 +158,44 @@ p {
     padding-right: 12%;
 }
 
+#newDesign-titles-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#newDesign-title-1 {
+    margin-left: 3%;
+}
+
+#newDesign-title-2 {
+    margin-right: 35%;
+}
+
+#newDesign-img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#newDesign-img-1 {
+    height: 100%;
+    width: 50%;
+}
+
+#newDesign-img-2 {
+    height: 100%;
+    width: 80%;
+}
+
+#newDesign-text-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#newDesign-text {
+    margin-right: 25%;
+}
+
 #qualityBikes-product-container {
     display: flex;
     flex-direction: column;
@@ -191,10 +229,14 @@ p {
     margin-left: 50%;
 }
 
+#product-img-container-2 {
+    display: flex;
+    justify-content: center;
+}
+
 #product-img-2 {
-    height: 440px;
-    width: 600px;
-    padding-right: 100%;
+    height: 100%;
+    width: 80%;
 }
 
 #pretty-img-1 {
@@ -230,4 +272,45 @@ p {
     height: 324px;
     width: 65vw;
     margin: 0 0 80px 160px;
+}
+
+#better-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#better-title-1 {
+    margin-left: 3%;
+}
+
+#better-title-2 {
+    margin-right: 35%;
+}
+
+#better-card-container-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 1250px;
+    border: 2px solid #8F2838;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#better-card-container-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px;
+    width: 1235px;
+    border: 2px solid #8F2838; 
+}
+
+#better-card-text {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
 }
